@@ -7,7 +7,7 @@ This repository contains the code and dataset used in identifying an optimal mac
 ### Data Source
 
 - The dataset includes structural damage data collected during the 2015 Gorkha Earthquake.
-- Earthquake intensity data is provided in contour form, and linear interpolation was used to estimate intensities for specific locations (wards).
+- Earthquake intensity data is provided in contour form, and kriging interpolation was used to estimate intensities for specific locations (wards).
 - Visit [Kaggle](https://www.kaggle.com/datasets/arashnic/earthquake-magnitude-damage-and-impact?resource=download&select=csv_building_structure.csv) to find the dataset.
 
 ### Damage Grade Prediction
@@ -20,9 +20,9 @@ This repository contains the code and dataset used in identifying an optimal mac
 - Several machine learning models were tested to identify the most suitable one for predicting damage grades.
 - This repository includes code for training, testing, and hyperparameter tuning to optimize the model's performance.
 
-### Linear Interpolation for Intensity Data
+### Kriging Interpolation for Intensity Data
 
-- The available intensity data in contour form was interpolated linearly to determine earthquake intensities at ward-level locations.
+- The available intensity data in contour form was interpolated using kriging interpolation to determine earthquake intensities at ward-level locations.
 
 ## Installation
 
